@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.3" version="1.3" xmlns:viz="http://www.gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.3 http://www.gexf.net/1.3/gexf.xsd">
+<creator>jgexf</creator>
+  <graph defaultedgetype="directed" mode="dynamic" timeformat="datetime" timerepresentation="interval" starttime="1989-06-27 00:00:00">
+    <attributes class="node" mode="dynamic">
+      <attribute id="n0" title="election cycle" type="string"></attribute>
+      <attribute id="n1" title="contributor state" type="string"></attribute>
+      <attribute id="n2" title="recipient state" type="string"></attribute>
+      <attribute id="n3" title="recipient party" type="string"></attribute>
+      <attribute id="n4" title="amount" type="double"></attribute>
+      <attribute id="n8" title="recipient id" type="string"></attribute>
+      <attribute id="n11" title="zip" type="string"></attribute>
+      <attribute id="n16" title="gender" type="string"></attribute>
+      <attribute id="n17" title="employer" type="string"></attribute>
+      <attribute id="total count" title="total count" type="double"></attribute>
+    </attributes>
+    <attributes class="edge" mode="dynamic">
+      <attribute id="e3" title="recipientparty" type="string"></attribute>
+      <attribute id="e4" title="amount" type="double"></attribute>
+      <attribute id="count" title="count" type="double"></attribute>
+    </attributes>
+    <nodes count="16">
+      <node id="a00003927711_BONE, WILLIAM" label="BONE, WILLIAM" start="1989-06-27T00:00:00.000-04:00" end="1990-11-03T00:00:00.000-05:00">
+        <spells>
+          <spell start="1989-06-27T00:00:00.000-04:00" end="1989-07-27T00:00:00.000-04:00"/>
+          <spell start="1989-08-21T00:00:00.000-04:00" end="1989-10-12T00:00:00.000-04:00"/>
+          <spell start="1989-11-29T00:00:00.000-05:00" end="1989-12-29T00:00:00.000-05:00"/>
+          <spell start="1990-01-16T00:00:00.000-05:00" end="1990-03-10T00:00:00.000-05:00"/>
+          <spell start="1990-04-24T00:00:00.000-04:00" end="1990-06-14T00:00:00.000-04:00"/>
+          <spell start="1990-06-26T00:00:00.000-04:00" end="1990-08-15T00:00:00.000-04:00"/>
+          <spell start="1990-08-27T00:00:00.000-04:00" end="1990-09-26T00:00:00.000-04:00"/>
+          <spell start="1990-09-27T00:00:00.000-04:00" end="1990-11-03T00:00:00.000-05:00"/>
+        </spells>
+        <attvalues>
+          <attvalue for="n0" value="1990" start="1989-06-27T00:00:00.000-04:00" end="1989-07-27T00:00:00.000-04:00"></attvalue>
+          <attvalue for="n1" value="CA" start="1989-06-27T00:00:00.000-04:00" end="1989-07-27T00:00:00.000-04:00"></attvalue>
+          <attvalue for="n4" value="27000.0" start="1989-06-27T00:00:00.000-04:00" end="1990-11-03T00:00:00.000-05:00"></attvalue>
+          <attvalue for="n11" value="92260" start="1989-06-27T00:00:00.000-04:00" end="1989-07-27T00:00:00.000-04:00"></attvalue>
+          <attvalue for="n16" value="M" start="1989-06-27T00:00:00.000-04:00" end="1989-07-27T00:00:00.000-04:00"></attvalue>
+          <attvalue for="n17" value="SUNRISE COMPANY" start="1989-06-27T00:00:00.000-04:00" end="1989-07-27T00:00:00.000-04:00"></attvalue>
+          <attvalue for="total count" value="27.0" start="1989-06-27T00:00:00.000-04:00" end="1990-11-03T00:00:00.000-05:00"></attvalue>
+          <attvalue for="n0" value="1990" start="1989-08-21T00:00:00.000-04:00" end="1989-10-12T00:00:00.000-04:00"></attvalue>
+          <attvalue for="n1" value="CA" start="1989-08-21T00:00:00.000-04:00" end="1989-10-12T00:00:00.000-04:00"></attvalue>
+          <attvalue for="n11" value="92260" start="1989-08-21T00:00:00.000-04:00" end="1989-10-12T00:00:00.000-04:00"></attvalue>
+          <attvalue for="n16" value="M" start="1989-08-21T00:00:00.000-04:00" end="1989-10-12T00:00:00.000-04:00"></attvalue>
+          <attvalue for="n17" value="SUNRISE COMPANY" start="1989-08-21T00:00:00.000-04:00" end="1989-10-12T00:00:00.000-04:00"></attvalue>
+          <attvalue for="n0" value="1990" start="1989-11-29T00:00:00.000-05:00" end="1989-12-29T00:00:00.000-05:00"></attvalue>
+          <attvalue for="n1" value="CA" start="1989-11-29T00:00:00.000-05:00" end="1989-12-29T00:00:00.000-05:00"></attvalue>
+          <attvalue for="n11" value="92660" start="1989-11-29T00:00:00.000-05:00" end="1989-12-29T00:00:00.000-05:00"></attvalue>
+          <attvalue for="n16" value="M" start="1989-11-29T00:00:00.000-05:00" end="1989-12-29T00:00:00.000-05:00"></attvalue>
+          <attvalue for="n17" value="SUNRISE COMPANY" start="1989-11-29T00:00:00.000-05:00" end="1989-12-29T00:00:00.000-05:00"></attvalue>
+          <attvalue for="n0" value="1990" start="1990-01-16T00:00:00.000-05:00" end="1990-03-10T00:00:00.000-05:00"></attvalue>
+          <attvalue for="n16" value="M" start="1990-01-16T00:00:00.000-05:00" end="1990-03-10T00:00:00.000-05:00"></attvalue>
+          <attvalue for="n1" value="CA" start="1990-01-22T00:00:00.000-05:00" end="1990-02-21T00:00:00.000-05:00"></attvalue>
+          <attvalue for="n11" value="92260" start="1990-01-22T00:00:00.000-05:00" end="1990-02-21T00:00:00.000-05:00"></attvalue>
+          <attvalue for="n17" value="SUNRISE CO" start="1990-01-22T00:00:00.000-05:00" end="1990-02-21T00:00:00.000-05:00"></attvalue>
+          <attvalue for="n0" value="1990" start="1990-04-24T00:00:00.000-04:00" end="1990-06-14T00:00:00.000-04:00"></attvalue>
+          <attvalue for="n1" value="CA" start="1990-04-24T00:00:00.000-04:00" end="1990-06-14T00:00:00.000-04:00"></attvalue>
+          <attvalue for="n11" value="92260, 92660" start="1990-04-24T00:00:00.000-04:00" end="1990-06-14T00:00:00.000-04:00"></attvalue>
+          <attvalue for="n16" value="M" start="1990-04-24T00:00:00.000-04:00" end="1990-06-14T00:00:00.000-04:00"></attvalue>
+          <attvalue for="n17" value="SUNRISE COMPANY, SUNRISE CORP" start="1990-04-24T00:00:00.000-04:00" end="1990-06-14T00:00:00.000-04:00"></attvalue>
+          <attvalue for="n0" value="1990" start="1990-06-26T00:00:00.000-04:00" end="1990-08-15T00:00:00.000-04:00"></attvalue>
+          <attvalue for="n1" value="CA" start="1990-06-26T00:00:00.000-04:00" end="1990-08-15T00:00:00.000-04:00"></attvalue>
+          <attvalue for="n11" value="92260" start="1990-06-26T00:00:00.000-04:00" end="1990-08-15T00:00:00.000-04:00"></attvalue>
+          <attvalue for="n16" value="M" start="1990-06-26T00:00:00.000-04:00" end="1990-08-15T00:00:00.000-04:00"></attvalue>
+          <attvalue for="n17" value="SUNRISE COMPANY" start="1990-07-13T00:00:00.000-04:00" end="1990-08-12T00:00:00.000-04:00"></attvalue>
+          <attvalue for="n0" value="1990" start="1990-08-27T00:00:00.000-04:00" end="1990-09-26T00:00:00.000-04:00"></attvalue>
+          <attvalue for="n16" value="M" start="1990-08-27T00:00:00.000-04:00" end="1990-09-26T00:00:00.000-04:00"></attvalue>
+          <attvalue for="n0" value="1990" start="1990-09-27T00:00:00.000-04:00" end="1990-11-03T00:00:00.000-05:00"></attvalue>
+          <attvalue for="n1" value="CA" start="1990-09-27T00:00:00.000-04:00" end="1990-11-03T00:00:00.000-05:00"></attvalue>
+          <attvalue for="n11" value="92260" start="1990-09-27T00:00:00.000-04:00" end="1990-11-03T00:00:00.000-05:00"></attvalue>
+          <attvalue for="n16" value="M" start="1990-09-27T00:00:00.000-04:00" end="1990-11-03T00:00:00.000-05:00"></attvalue>
+          <attvalue for="n17" value="SUNRISE CO" start="1990-09-27T00:00:00.000-04:00" end="1990-11-01T00:00:00.000-05:00"></attvalue>
+        </attvalues>
+      </node>
+      <node id="Thad Cochran (R)" label="Thad Cochran (R)" start="1989-06-27T00:00:00.000-04:00" end="1989-07-27T00:00:00.000-04:00">
+        <attvalues>
+          <attvalue for="n0" value="1990" start="1989-06-27T00:00:00.000-04:00" end="1989-07-27T00:00:00.000-04:00"></attvalue>
+          <attvalue for="n2" value="MS" start="1989-06-27T00:00:00.000-04:00" end="1989-07-27T00:00:00.000-04:00"></attvalue>
+          <attvalue for="n3" value="R" start="1989-06-27T00:00:00.000-04:00" end="1989-07-27T00:00:00.000-04:00"></attvalue>
+          <attvalue for="n4" value="2000.0" start="1989-06-27T00:00:00.000-04:00" end="1989-07-27T00:00:00.000-04:00"></attvalue>
+          <attvalue for="total count" value="2.0" start="1989-06-27T00:00:00.000-04:00" end="1989-07-27T00:00:00.000-04:00"></attvalue>
+        </attvalues>
+      </node>
+      <node id="Larry Pressler (R)" label="Larry Pressler (R)" start="1989-08-21T00:00:00.000-04:00" end="1989-09-21T00:00:00.000-04:00">
+        <attvalues>
+          <attvalue for="n0" value="1990" start="1989-08-21T00:00:00.000-04:00" end="1989-09-21T00:00:00.000-04:00"></attvalue>
+          <attvalue for="n2" value="SD" start="1989-08-21T00:00:00.000-04:00" end="1989-09-21T00:00:00.000-04:00"></attvalue>
+          <attvalue for="n3" value="R" start="1989-08-21T00:00:00.000-04:00" end="1989-09-21T00:00:00.000-04:00"></attvalue>
+          <attvalue for="n4" value="2000.0" start="1989-08-21T00:00:00.000-04:00" end="1989-09-21T00:00:00.000-04:00"></attvalue>
+          <attvalue for="total count" value="2.0" start="1989-08-21T00:00:00.000-04:00" end="1989-09-21T00:00:00.000-04:00"></attvalue>
+        </attvalues>
+      </node>
+      <node id="Pete Geren (D)" label="Pete Geren (D)" start="1989-09-12T00:00:00.000-04:00" end="1989-10-12T00:00:00.000-04:00">
+        <attvalues>
+          <attvalue for="n0" value="1990" start="1989-09-12T00:00:00.000-04:00" end="1989-10-12T00:00:00.000-04:00"></attvalue>
+          <attvalue for="n2" value="TX" start="1989-09-12T00:00:00.000-04:00" end="1989-10-12T00:00:00.000-04:00"></attvalue>
+          <attvalue for="n3" value="D" start="1989-09-12T00:00:00.000-04:00" end="1989-10-12T00:00:00.000-04:00"></attvalue>
+          <attvalue for="n4" value="1000" start="1989-09-12T00:00:00.000-04:00" end="1989-10-12T00:00:00.000-04:00"></attvalue>
+          <attvalue for="total count" value="1" start="1989-09-12T00:00:00.000-04:00" end="1989-10-12T00:00:00.000-04:00"></attvalue>
+        </attvalues>
+      </node>
+      <node id="Mark O Hatfield (R)" label="Mark O Hatfield (R)" start="1989-11-29T00:00:00.000-05:00" end="1989-12-29T00:00:00.000-05:00">
+        <attvalues>
+          <attvalue for="n0" value="1990" start="1989-11-29T00:00:00.000-05:00" end="1989-12-29T00:00:00.000-05:00"></attvalue>
+          <attvalue for="n2" value="OR" start="1989-11-29T00:00:00.000-05:00" end="1989-12-29T00:00:00.000-05:00"></attvalue>
+          <attvalue for="n3" value="R" start="1989-11-29T00:00:00.000-05:00" end="1989-12-29T00:00:00.000-05:00"></attvalue>
+          <attvalue for="n4" value="1000" start="1989-11-29T00:00:00.000-05:00" end="1989-12-29T00:00:00.000-05:00"></attvalue>
+          <attvalue for="total count" value="1" start="1989-11-29T00:00:00.000-05:00" end="1989-12-29T00:00:00.000-05:00"></attvalue>
+        </attvalues>
+      </node>
+      <node id="Hank Brown (R)" label="Hank Brown (R)" start="1990-01-16T00:00:00.000-05:00" end="1990-02-21T00:00:00.000-05:00">
+        <attvalues>
+          <attvalue for="n0" value="1990" start="1990-01-16T00:00:00.000-05:00" end="1990-02-21T00:00:00.000-05:00"></attvalue>
+          <attvalue for="n2" value="CO" start="1990-01-16T00:00:00.000-05:00" end="1990-02-21T00:00:00.000-05:00"></attvalue>
+          <attvalue for="n3" value="R" start="1990-01-16T00:00:00.000-05:00" end="1990-02-21T00:00:00.000-05:00"></attvalue>
+          <attvalue for="n4" value="2000.0" start="1990-01-16T00:00:00.000-05:00" end="1990-02-21T00:00:00.000-05:00"></attvalue>
+          <attvalue for="total count" value="2.0" start="1990-01-16T00:00:00.000-05:00" end="1990-02-21T00:00:00.000-05:00"></attvalue>
+        </attvalues>
+      </node>
+      <node id="Mitch McConnell (R)" label="Mitch McConnell (R)" start="1990-02-03T00:00:00.000-05:00" end="1990-03-10T00:00:00.000-05:00">
+        <attvalues>
+          <attvalue for="n0" value="1990" start="1990-02-03T00:00:00.000-05:00" end="1990-03-10T00:00:00.000-05:00"></attvalue>
+          <attvalue for="n2" value="KY" start="1990-02-03T00:00:00.000-05:00" end="1990-03-10T00:00:00.000-05:00"></attvalue>
+          <attvalue for="n3" value="R" start="1990-02-03T00:00:00.000-05:00" end="1990-03-10T00:00:00.000-05:00"></attvalue>
+          <attvalue for="n4" value="2000.0" start="1990-02-03T00:00:00.000-05:00" end="1990-03-10T00:00:00.000-05:00"></attvalue>
+          <attvalue for="total count" value="2.0" start="1990-02-03T00:00:00.000-05:00" end="1990-03-10T00:00:00.000-05:00"></attvalue>
+        </attvalues>
+      </node>
+      <node id="Richard H Lehman (D)" label="Richard H Lehman (D)" start="1990-04-24T00:00:00.000-04:00" end="1990-05-24T00:00:00.000-04:00">
+        <attvalues>
+          <attvalue for="n0" value="1990" start="1990-04-24T00:00:00.000-04:00" end="1990-05-24T00:00:00.000-04:00"></attvalue>
+          <attvalue for="n2" value="CA" start="1990-04-24T00:00:00.000-04:00" end="1990-05-24T00:00:00.000-04:00"></attvalue>
+          <attvalue for="n3" value="D" start="1990-04-24T00:00:00.000-04:00" end="1990-05-24T00:00:00.000-04:00"></attvalue>
+          <attvalue for="n4" value="1000" start="1990-04-24T00:00:00.000-04:00" end="1990-05-24T00:00:00.000-04:00"></attvalue>
+          <attvalue for="total count" value="1" start="1990-04-24T00:00:00.000-04:00" end="1990-05-24T00:00:00.000-04:00"></attvalue>
+        </attvalues>
+      </node>
+      <node id="Al McCandless (R)" label="Al McCandless (R)" start="1990-05-15T00:00:00.000-04:00" end="1990-10-27T00:00:00.000-04:00">
+        <spells>
+          <spell start="1990-05-15T00:00:00.000-04:00" end="1990-06-14T00:00:00.000-04:00"/>
+          <spell start="1990-09-27T00:00:00.000-04:00" end="1990-10-27T00:00:00.000-04:00"/>
+        </spells>
+        <attvalues>
+          <attvalue for="n0" value="1990" start="1990-05-15T00:00:00.000-04:00" end="1990-06-14T00:00:00.000-04:00"></attvalue>
+          <attvalue for="n2" value="CA" start="1990-05-15T00:00:00.000-04:00" end="1990-06-14T00:00:00.000-04:00"></attvalue>
+          <attvalue for="n3" value="R" start="1990-05-15T00:00:00.000-04:00" end="1990-06-14T00:00:00.000-04:00"></attvalue>
+          <attvalue for="n4" value="2000.0" start="1990-05-15T00:00:00.000-04:00" end="1990-10-27T00:00:00.000-04:00"></attvalue>
+          <attvalue for="total count" value="2.0" start="1990-05-15T00:00:00.000-04:00" end="1990-10-27T00:00:00.000-04:00"></attvalue>
+          <attvalue for="n0" value="1990" start="1990-09-27T00:00:00.000-04:00" end="1990-10-27T00:00:00.000-04:00"></attvalue>
+          <attvalue for="n2" value="CA" start="1990-09-27T00:00:00.000-04:00" end="1990-10-27T00:00:00.000-04:00"></attvalue>
+          <attvalue for="n3" value="R" start="1990-09-27T00:00:00.000-04:00" end="1990-10-27T00:00:00.000-04:00"></attvalue>
+        </attvalues>
+      </node>
+      <node id="Maxine Waters (D)" label="Maxine Waters (D)" start="1990-06-26T00:00:00.000-04:00" end="1990-11-03T00:00:00.000-05:00">
+        <spells>
+          <spell start="1990-06-26T00:00:00.000-04:00" end="1990-07-26T00:00:00.000-04:00"/>
+          <spell start="1990-10-04T00:00:00.000-04:00" end="1990-11-03T00:00:00.000-05:00"/>
+        </spells>
+        <attvalues>
+          <attvalue for="n0" value="1990" start="1990-06-26T00:00:00.000-04:00" end="1990-07-26T00:00:00.000-04:00"></attvalue>
+          <attvalue for="n2" value="CA" start="1990-06-26T00:00:00.000-04:00" end="1990-07-26T00:00:00.000-04:00"></attvalue>
+          <attvalue for="n3" value="D" start="1990-06-26T00:00:00.000-04:00" end="1990-07-26T00:00:00.000-04:00"></attvalue>
+          <attvalue for="n4" value="2000.0" start="1990-06-26T00:00:00.000-04:00" end="1990-11-03T00:00:00.000-05:00"></attvalue>
+          <attvalue for="total count" value="2.0" start="1990-06-26T00:00:00.000-04:00" end="1990-11-03T00:00:00.000-05:00"></attvalue>
+          <attvalue for="n0" value="1990" start="1990-10-04T00:00:00.000-04:00" end="1990-11-03T00:00:00.000-05:00"></attvalue>
+          <attvalue for="n2" value="CA" start="1990-10-04T00:00:00.000-04:00" end="1990-11-03T00:00:00.000-05:00"></attvalue>
+          <attvalue for="n3" value="D" start="1990-10-04T00:00:00.000-04:00" end="1990-11-03T00:00:00.000-05:00"></attvalue>
+        </attvalues>
+      </node>
+      <node id="John T Doolittle (R)" label="John T Doolittle (R)" start="1990-06-26T00:00:00.000-04:00" end="1990-11-01T00:00:00.000-05:00">
+        <spells>
+          <spell start="1990-06-26T00:00:00.000-04:00" end="1990-07-26T00:00:00.000-04:00"/>
+          <spell start="1990-10-02T00:00:00.000-04:00" end="1990-11-01T00:00:00.000-05:00"/>
+        </spells>
+        <attvalues>
+          <attvalue for="n0" value="1990" start="1990-06-26T00:00:00.000-04:00" end="1990-07-26T00:00:00.000-04:00"></attvalue>
+          <attvalue for="n2" value="CA" start="1990-06-26T00:00:00.000-04:00" end="1990-07-26T00:00:00.000-04:00"></attvalue>
+          <attvalue for="n3" value="R" start="1990-06-26T00:00:00.000-04:00" end="1990-07-26T00:00:00.000-04:00"></attvalue>
+          <attvalue for="n4" value="2000.0" start="1990-06-26T00:00:00.000-04:00" end="1990-11-01T00:00:00.000-05:00"></attvalue>
+          <attvalue for="total count" value="2.0" start="1990-06-26T00:00:00.000-04:00" end="1990-11-01T00:00:00.000-05:00"></attvalue>
+          <attvalue for="n0" value="1990" start="1990-10-02T00:00:00.000-04:00" end="1990-11-01T00:00:00.000-05:00"></attvalue>
+          <attvalue for="n2" value="CA" start="1990-10-02T00:00:00.000-04:00" end="1990-11-01T00:00:00.000-05:00"></attvalue>
+          <attvalue for="n3" value="R" start="1990-10-02T00:00:00.000-04:00" end="1990-11-01T00:00:00.000-05:00"></attvalue>
+        </attvalues>
+      </node>
+      <node id="Larry Craig (R)" label="Larry Craig (R)" start="1990-06-28T00:00:00.000-04:00" end="1990-08-12T00:00:00.000-04:00">
+        <attvalues>
+          <attvalue for="n0" value="1990" start="1990-06-28T00:00:00.000-04:00" end="1990-08-12T00:00:00.000-04:00"></attvalue>
+          <attvalue for="n2" value="ID" start="1990-06-28T00:00:00.000-04:00" end="1990-08-12T00:00:00.000-04:00"></attvalue>
+          <attvalue for="n3" value="R" start="1990-06-28T00:00:00.000-04:00" end="1990-08-12T00:00:00.000-04:00"></attvalue>
+          <attvalue for="n4" value="2000.0" start="1990-06-28T00:00:00.000-04:00" end="1990-08-12T00:00:00.000-04:00"></attvalue>
+          <attvalue for="total count" value="2.0" start="1990-06-28T00:00:00.000-04:00" end="1990-08-12T00:00:00.000-04:00"></attvalue>
+        </attvalues>
+      </node>
+      <node id="Dan Coats (R)" label="Dan Coats (R)" start="1990-06-28T00:00:00.000-04:00" end="1990-08-09T00:00:00.000-04:00">
+        <attvalues>
+          <attvalue for="n0" value="1990" start="1990-06-28T00:00:00.000-04:00" end="1990-08-09T00:00:00.000-04:00"></attvalue>
+          <attvalue for="n2" value="IN" start="1990-06-28T00:00:00.000-04:00" end="1990-08-09T00:00:00.000-04:00"></attvalue>
+          <attvalue for="n3" value="R" start="1990-06-28T00:00:00.000-04:00" end="1990-08-09T00:00:00.000-04:00"></attvalue>
+          <attvalue for="n4" value="2000.0" start="1990-06-28T00:00:00.000-04:00" end="1990-08-09T00:00:00.000-04:00"></attvalue>
+          <attvalue for="total count" value="2.0" start="1990-06-28T00:00:00.000-04:00" end="1990-08-09T00:00:00.000-04:00"></attvalue>
+        </attvalues>
+      </node>
+      <node id="Pete V Domenici (R)" label="Pete V Domenici (R)" start="1990-06-28T00:00:00.000-04:00" end="1990-08-08T00:00:00.000-04:00">
+        <attvalues>
+          <attvalue for="n0" value="1990" start="1990-06-28T00:00:00.000-04:00" end="1990-08-08T00:00:00.000-04:00"></attvalue>
+          <attvalue for="n2" value="NM" start="1990-06-28T00:00:00.000-04:00" end="1990-08-08T00:00:00.000-04:00"></attvalue>
+          <attvalue for="n3" value="R" start="1990-06-28T00:00:00.000-04:00" end="1990-08-08T00:00:00.000-04:00"></attvalue>
+          <attvalue for="n4" value="2000.0" start="1990-06-28T00:00:00.000-04:00" end="1990-08-08T00:00:00.000-04:00"></attvalue>
+          <attvalue for="total count" value="2.0" start="1990-06-28T00:00:00.000-04:00" end="1990-08-08T00:00:00.000-04:00"></attvalue>
+        </attvalues>
+      </node>
+      <node id="Phil Gramm (R)" label="Phil Gramm (R)" start="1990-06-28T00:00:00.000-04:00" end="1990-08-11T00:00:00.000-04:00">
+        <attvalues>
+          <attvalue for="n0" value="1990" start="1990-06-28T00:00:00.000-04:00" end="1990-08-11T00:00:00.000-04:00"></attvalue>
+          <attvalue for="n2" value="TX" start="1990-06-28T00:00:00.000-04:00" end="1990-08-11T00:00:00.000-04:00"></attvalue>
+          <attvalue for="n3" value="R" start="1990-06-28T00:00:00.000-04:00" end="1990-08-11T00:00:00.000-04:00"></attvalue>
+          <attvalue for="n4" value="2000.0" start="1990-06-28T00:00:00.000-04:00" end="1990-08-11T00:00:00.000-04:00"></attvalue>
+          <attvalue for="total count" value="2.0" start="1990-06-28T00:00:00.000-04:00" end="1990-08-11T00:00:00.000-04:00"></attvalue>
+        </attvalues>
+      </node>
+      <node id="Jesse Helms (R)" label="Jesse Helms (R)" start="1990-07-16T00:00:00.000-04:00" end="1990-09-26T00:00:00.000-04:00">
+        <spells>
+          <spell start="1990-07-16T00:00:00.000-04:00" end="1990-08-15T00:00:00.000-04:00"/>
+          <spell start="1990-08-27T00:00:00.000-04:00" end="1990-09-26T00:00:00.000-04:00"/>
+        </spells>
+        <attvalues>
+          <attvalue for="n0" value="1990" start="1990-07-16T00:00:00.000-04:00" end="1990-08-15T00:00:00.000-04:00"></attvalue>
+          <attvalue for="n2" value="NC" start="1990-07-16T00:00:00.000-04:00" end="1990-08-15T00:00:00.000-04:00"></attvalue>
+          <attvalue for="n3" value="R" start="1990-07-16T00:00:00.000-04:00" end="1990-08-15T00:00:00.000-04:00"></attvalue>
+          <attvalue for="n4" value="2000.0" start="1990-07-16T00:00:00.000-04:00" end="1990-09-26T00:00:00.000-04:00"></attvalue>
+          <attvalue for="total count" value="2.0" start="1990-07-16T00:00:00.000-04:00" end="1990-09-26T00:00:00.000-04:00"></attvalue>
+          <attvalue for="n0" value="1990" start="1990-08-27T00:00:00.000-04:00" end="1990-09-26T00:00:00.000-04:00"></attvalue>
+          <attvalue for="n2" value="NC" start="1990-08-27T00:00:00.000-04:00" end="1990-09-26T00:00:00.000-04:00"></attvalue>
+          <attvalue for="n3" value="R" start="1990-08-27T00:00:00.000-04:00" end="1990-09-26T00:00:00.000-04:00"></attvalue>
+        </attvalues>
+      </node>
+    </nodes>
+    <edges count="15">
+      <edge id="a00003927711_BONE, WILLIAM-Thad Cochran (R)" source="a00003927711_BONE, WILLIAM" target="Thad Cochran (R)" weight="2000.0" start="1989-06-27T00:00:00.000-04:00" end="1989-07-27T00:00:00.000-04:00">
+        <attvalues>
+          <attvalue for="e3" value="R" start="1989-06-27T00:00:00.000-04:00" end="1989-07-27T00:00:00.000-04:00"></attvalue>
+          <attvalue for="e4" value="2000.0" start="1989-06-27T00:00:00.000-04:00" end="1989-07-27T00:00:00.000-04:00"></attvalue>
+          <attvalue for="count" value="2.0" start="1989-06-27T00:00:00.000-04:00" end="1989-07-27T00:00:00.000-04:00"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="a00003927711_BONE, WILLIAM-Larry Pressler (R)" source="a00003927711_BONE, WILLIAM" target="Larry Pressler (R)" weight="2000.0" start="1989-08-21T00:00:00.000-04:00" end="1989-09-21T00:00:00.000-04:00">
+        <attvalues>
+          <attvalue for="e3" value="R" start="1989-08-21T00:00:00.000-04:00" end="1989-09-21T00:00:00.000-04:00"></attvalue>
+          <attvalue for="e4" value="2000.0" start="1989-08-21T00:00:00.000-04:00" end="1989-09-21T00:00:00.000-04:00"></attvalue>
+          <attvalue for="count" value="2.0" start="1989-08-21T00:00:00.000-04:00" end="1989-09-21T00:00:00.000-04:00"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="a00003927711_BONE, WILLIAM-Pete Geren (D)" source="a00003927711_BONE, WILLIAM" target="Pete Geren (D)" weight="1000" start="1989-09-12T00:00:00.000-04:00" end="1989-10-12T00:00:00.000-04:00">
+        <attvalues>
+          <attvalue for="e3" value="D" start="1989-09-12T00:00:00.000-04:00" end="1989-10-12T00:00:00.000-04:00"></attvalue>
+          <attvalue for="e4" value="1000" start="1989-09-12T00:00:00.000-04:00" end="1989-10-12T00:00:00.000-04:00"></attvalue>
+          <attvalue for="count" value="1" start="1989-09-12T00:00:00.000-04:00" end="1989-10-12T00:00:00.000-04:00"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="a00003927711_BONE, WILLIAM-Mark O Hatfield (R)" source="a00003927711_BONE, WILLIAM" target="Mark O Hatfield (R)" weight="1000" start="1989-11-29T00:00:00.000-05:00" end="1989-12-29T00:00:00.000-05:00">
+        <attvalues>
+          <attvalue for="e3" value="R" start="1989-11-29T00:00:00.000-05:00" end="1989-12-29T00:00:00.000-05:00"></attvalue>
+          <attvalue for="e4" value="1000" start="1989-11-29T00:00:00.000-05:00" end="1989-12-29T00:00:00.000-05:00"></attvalue>
+          <attvalue for="count" value="1" start="1989-11-29T00:00:00.000-05:00" end="1989-12-29T00:00:00.000-05:00"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="a00003927711_BONE, WILLIAM-Hank Brown (R)" source="a00003927711_BONE, WILLIAM" target="Hank Brown (R)" weight="2000.0" start="1990-01-16T00:00:00.000-05:00" end="1990-02-21T00:00:00.000-05:00">
+        <attvalues>
+          <attvalue for="e3" value="R" start="1990-01-16T00:00:00.000-05:00" end="1990-02-21T00:00:00.000-05:00"></attvalue>
+          <attvalue for="e4" value="2000.0" start="1990-01-16T00:00:00.000-05:00" end="1990-02-21T00:00:00.000-05:00"></attvalue>
+          <attvalue for="count" value="2.0" start="1990-01-16T00:00:00.000-05:00" end="1990-02-21T00:00:00.000-05:00"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="a00003927711_BONE, WILLIAM-Mitch McConnell (R)" source="a00003927711_BONE, WILLIAM" target="Mitch McConnell (R)" weight="2000.0" start="1990-02-03T00:00:00.000-05:00" end="1990-03-10T00:00:00.000-05:00">
+        <attvalues>
+          <attvalue for="e3" value="R" start="1990-02-03T00:00:00.000-05:00" end="1990-03-10T00:00:00.000-05:00"></attvalue>
+          <attvalue for="e4" value="2000.0" start="1990-02-03T00:00:00.000-05:00" end="1990-03-10T00:00:00.000-05:00"></attvalue>
+          <attvalue for="count" value="2.0" start="1990-02-03T00:00:00.000-05:00" end="1990-03-10T00:00:00.000-05:00"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="a00003927711_BONE, WILLIAM-Richard H Lehman (D)" source="a00003927711_BONE, WILLIAM" target="Richard H Lehman (D)" weight="1000" start="1990-04-24T00:00:00.000-04:00" end="1990-05-24T00:00:00.000-04:00">
+        <attvalues>
+          <attvalue for="e3" value="D" start="1990-04-24T00:00:00.000-04:00" end="1990-05-24T00:00:00.000-04:00"></attvalue>
+          <attvalue for="e4" value="1000" start="1990-04-24T00:00:00.000-04:00" end="1990-05-24T00:00:00.000-04:00"></attvalue>
+          <attvalue for="count" value="1" start="1990-04-24T00:00:00.000-04:00" end="1990-05-24T00:00:00.000-04:00"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="a00003927711_BONE, WILLIAM-Al McCandless (R)" source="a00003927711_BONE, WILLIAM" target="Al McCandless (R)" weight="2000.0" start="1990-05-15T00:00:00.000-04:00" end="1990-10-27T00:00:00.000-04:00">
+        <spells>
+          <spell start="1990-05-15T00:00:00.000-04:00" end="1990-06-14T00:00:00.000-04:00"/>
+          <spell start="1990-09-27T00:00:00.000-04:00" end="1990-10-27T00:00:00.000-04:00"/>
+        </spells>
+        <attvalues>
+          <attvalue for="e3" value="R" start="1990-05-15T00:00:00.000-04:00" end="1990-06-14T00:00:00.000-04:00"></attvalue>
+          <attvalue for="e4" value="2000.0" start="1990-05-15T00:00:00.000-04:00" end="1990-10-27T00:00:00.000-04:00"></attvalue>
+          <attvalue for="count" value="2.0" start="1990-05-15T00:00:00.000-04:00" end="1990-10-27T00:00:00.000-04:00"></attvalue>
+          <attvalue for="e3" value="R" start="1990-09-27T00:00:00.000-04:00" end="1990-10-27T00:00:00.000-04:00"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="a00003927711_BONE, WILLIAM-Maxine Waters (D)" source="a00003927711_BONE, WILLIAM" target="Maxine Waters (D)" weight="2000.0" start="1990-06-26T00:00:00.000-04:00" end="1990-11-03T00:00:00.000-05:00">
+        <spells>
+          <spell start="1990-06-26T00:00:00.000-04:00" end="1990-07-26T00:00:00.000-04:00"/>
+          <spell start="1990-10-04T00:00:00.000-04:00" end="1990-11-03T00:00:00.000-05:00"/>
+        </spells>
+        <attvalues>
+          <attvalue for="e3" value="D" start="1990-06-26T00:00:00.000-04:00" end="1990-07-26T00:00:00.000-04:00"></attvalue>
+          <attvalue for="e4" value="2000.0" start="1990-06-26T00:00:00.000-04:00" end="1990-11-03T00:00:00.000-05:00"></attvalue>
+          <attvalue for="count" value="2.0" start="1990-06-26T00:00:00.000-04:00" end="1990-11-03T00:00:00.000-05:00"></attvalue>
+          <attvalue for="e3" value="D" start="1990-10-04T00:00:00.000-04:00" end="1990-11-03T00:00:00.000-05:00"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="a00003927711_BONE, WILLIAM-John T Doolittle (R)" source="a00003927711_BONE, WILLIAM" target="John T Doolittle (R)" weight="2000.0" start="1990-06-26T00:00:00.000-04:00" end="1990-11-01T00:00:00.000-05:00">
+        <spells>
+          <spell start="1990-06-26T00:00:00.000-04:00" end="1990-07-26T00:00:00.000-04:00"/>
+          <spell start="1990-10-02T00:00:00.000-04:00" end="1990-11-01T00:00:00.000-05:00"/>
+        </spells>
+        <attvalues>
+          <attvalue for="e3" value="R" start="1990-06-26T00:00:00.000-04:00" end="1990-07-26T00:00:00.000-04:00"></attvalue>
+          <attvalue for="e4" value="2000.0" start="1990-06-26T00:00:00.000-04:00" end="1990-11-01T00:00:00.000-05:00"></attvalue>
+          <attvalue for="count" value="2.0" start="1990-06-26T00:00:00.000-04:00" end="1990-11-01T00:00:00.000-05:00"></attvalue>
+          <attvalue for="e3" value="R" start="1990-10-02T00:00:00.000-04:00" end="1990-11-01T00:00:00.000-05:00"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="a00003927711_BONE, WILLIAM-Larry Craig (R)" source="a00003927711_BONE, WILLIAM" target="Larry Craig (R)" weight="2000.0" start="1990-06-28T00:00:00.000-04:00" end="1990-08-12T00:00:00.000-04:00">
+        <attvalues>
+          <attvalue for="e3" value="R" start="1990-06-28T00:00:00.000-04:00" end="1990-08-12T00:00:00.000-04:00"></attvalue>
+          <attvalue for="e4" value="2000.0" start="1990-06-28T00:00:00.000-04:00" end="1990-08-12T00:00:00.000-04:00"></attvalue>
+          <attvalue for="count" value="2.0" start="1990-06-28T00:00:00.000-04:00" end="1990-08-12T00:00:00.000-04:00"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="a00003927711_BONE, WILLIAM-Dan Coats (R)" source="a00003927711_BONE, WILLIAM" target="Dan Coats (R)" weight="2000.0" start="1990-06-28T00:00:00.000-04:00" end="1990-08-09T00:00:00.000-04:00">
+        <attvalues>
+          <attvalue for="e3" value="R" start="1990-06-28T00:00:00.000-04:00" end="1990-08-09T00:00:00.000-04:00"></attvalue>
+          <attvalue for="e4" value="2000.0" start="1990-06-28T00:00:00.000-04:00" end="1990-08-09T00:00:00.000-04:00"></attvalue>
+          <attvalue for="count" value="2.0" start="1990-06-28T00:00:00.000-04:00" end="1990-08-09T00:00:00.000-04:00"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="a00003927711_BONE, WILLIAM-Pete V Domenici (R)" source="a00003927711_BONE, WILLIAM" target="Pete V Domenici (R)" weight="2000.0" start="1990-06-28T00:00:00.000-04:00" end="1990-08-08T00:00:00.000-04:00">
+        <attvalues>
+          <attvalue for="e3" value="R" start="1990-06-28T00:00:00.000-04:00" end="1990-08-08T00:00:00.000-04:00"></attvalue>
+          <attvalue for="e4" value="2000.0" start="1990-06-28T00:00:00.000-04:00" end="1990-08-08T00:00:00.000-04:00"></attvalue>
+          <attvalue for="count" value="2.0" start="1990-06-28T00:00:00.000-04:00" end="1990-08-08T00:00:00.000-04:00"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="a00003927711_BONE, WILLIAM-Phil Gramm (R)" source="a00003927711_BONE, WILLIAM" target="Phil Gramm (R)" weight="2000.0" start="1990-06-28T00:00:00.000-04:00" end="1990-08-11T00:00:00.000-04:00">
+        <attvalues>
+          <attvalue for="e3" value="R" start="1990-06-28T00:00:00.000-04:00" end="1990-08-11T00:00:00.000-04:00"></attvalue>
+          <attvalue for="e4" value="2000.0" start="1990-06-28T00:00:00.000-04:00" end="1990-08-11T00:00:00.000-04:00"></attvalue>
+          <attvalue for="count" value="2.0" start="1990-06-28T00:00:00.000-04:00" end="1990-08-11T00:00:00.000-04:00"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="a00003927711_BONE, WILLIAM-Jesse Helms (R)" source="a00003927711_BONE, WILLIAM" target="Jesse Helms (R)" weight="2000.0" start="1990-07-16T00:00:00.000-04:00" end="1990-09-26T00:00:00.000-04:00">
+        <spells>
+          <spell start="1990-07-16T00:00:00.000-04:00" end="1990-08-15T00:00:00.000-04:00"/>
+          <spell start="1990-08-27T00:00:00.000-04:00" end="1990-09-26T00:00:00.000-04:00"/>
+        </spells>
+        <attvalues>
+          <attvalue for="e3" value="R" start="1990-07-16T00:00:00.000-04:00" end="1990-08-15T00:00:00.000-04:00"></attvalue>
+          <attvalue for="e4" value="2000.0" start="1990-07-16T00:00:00.000-04:00" end="1990-09-26T00:00:00.000-04:00"></attvalue>
+          <attvalue for="count" value="2.0" start="1990-07-16T00:00:00.000-04:00" end="1990-09-26T00:00:00.000-04:00"></attvalue>
+          <attvalue for="e3" value="R" start="1990-08-27T00:00:00.000-04:00" end="1990-09-26T00:00:00.000-04:00"></attvalue>
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
